@@ -1,0 +1,85 @@
+##########################
+#---Wooden Rod Shovels---#
+##########################
+DShovelPaper: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  enchantments: 
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@diamond|i@air
+  - i@air|i@paper|i@air 
+  - i@air|i@stick|i@air
+
+DShovelSlimeball: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  enchantments:
+  - DURABILITY:1
+  recipe: 
+  - i@air|i@diamond|i@air
+  - i@air|i@341|i@air 
+  - i@air|i@stick|i@air
+
+DShovelCream: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  enchantments: 
+  - MENDING:1
+  recipe: 
+  - i@air|i@diamond|i@air
+  - i@air|i@magma_cream|i@air 
+  - i@air|i@stick|i@air
+
+########################
+#---Bone Rod Shovels---#
+########################
+DShovelPaperB: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  recipe: 
+  - i@air|i@diamond|i@air
+  - i@air|i@paper|i@air 
+  - i@air|i@bone|i@air
+
+DShovelSlimeballB: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  enchantments:
+  - DURABILITY:2
+  recipe: 
+  - i@air|i@diamond|i@air
+  - i@air|i@341|i@air 
+  - i@air|i@bone|i@air
+
+DShovelCreamB: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  recipe: 
+  - i@air|i@diamond|i@air
+  - i@air|i@magma_cream|i@air 
+  - i@air|i@bone|i@air

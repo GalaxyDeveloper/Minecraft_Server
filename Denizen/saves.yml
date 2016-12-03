@@ -1,0 +1,135 @@
+a_saves:
+  version: '2'
+Players:
+  6F:
+    6F767975623F445BAB765EAE332DF567:
+      Flags:
+        ARROWTYPE:
+        - weak_bpg
+        RIDEALLTHECHICKENS:
+          JUMPCOOLDOWN:
+          - '-737.0'
+          TICKCOOLDOWN:
+          - '3.0'
+          FORWARD:
+          - '0.0'
+          SIDEWAYS:
+          - '0.0'
+          SHOULDJUMP:
+          - 'true'
+  2A:
+    2AD5F34B30A44C71B2C098EBDA4D2712:
+      Flags:
+        ARROWS:
+        - '7741'
+        - '7741'
+        - '7741'
+        - context.projectwile.eid
+        - '7742'
+        - '7742'
+        - '7742'
+        - context.projectwile.eid
+        - '7743'
+        - '7743'
+        - '7743'
+        - context.projectwile.eid
+        - '7744'
+        - '7744'
+        - '7744'
+        - context.projectwile.eid
+        - '7745'
+        - '7745'
+        - '7745'
+        - context.projectwile.eid
+        - '7746'
+        - '7746'
+        - '7746'
+        - context.projectwile.eid
+        - '7747'
+        - '7747'
+        - '7747'
+        - context.projectwile.eid
+        - '7748'
+        - '7748'
+        - '7748'
+        - context.projectwile.eid
+        - '7749'
+        - '7749'
+        - '7749'
+        - context.projectwile.eid
+        - '7766'
+        - '7766'
+        - '7766'
+        - context.projectwile.eid
+        - '7767'
+        - '7767'
+        - '7767'
+        - context.projectwile.eid
+        - '7768'
+        - '7768'
+        - '7768'
+        - context.projectwile.eid
+        - '7769'
+        - '7769'
+        - '7769'
+        - context.projectwile.eid
+        - '7786'
+        - '7786'
+        - '7786'
+        - context.projectwile.eid
+        - '7788'
+        - '7788'
+        - '7788'
+        - context.projectwile.eid
+        - '7789'
+        - '7789'
+        - '7789'
+        - context.projectwile.eid
+        - '7792'
+        - '7792'
+        - '7792'
+        - context.projectwile.eid
+        - '7793'
+        - '7793'
+        - '7793'
+        - context.projectwile.eid
+        - '7797'
+        - '7797'
+        - '7797'
+        - context.projectwile.eid
+        - '7811'
+        - '7811'
+        - '7811'
+        - context.projectwile.eid
+        - '7818'
+        - '7818'
+        - '7818'
+        - context.projectwile.eid
+        - '7819'
+        - '7819'
+        - '7819'
+        - context.projectwile.eid
+        - '7820'
+        - '7820'
+        - '7820'
+        ARROWS-expiration: 1477778142881
+        ARROWTYPE:
+        - mininuke_bpg
+Global:
+  Flags:
+    RIDEALLTHECHICKENS:
+      RIDDEN:
+      - '10.0'
+      TOTALDISTANCE:
+      - '488.9664884941758'
+Entities:
+  '69': {}
+  '02': {}
+  6E: {}
+  CE: {}
+  '13': {}
+  '21': {}
+  '32': {}
+  '14': {}
+  A3: {}
+  '95': {}

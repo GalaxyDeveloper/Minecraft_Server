@@ -1,0 +1,76 @@
+slime_boots:
+    type: item
+    debug: false
+    material: i@leather_boots
+    display name: <&2>Slime Boots
+    recipe:
+    - i@air|i@air|i@air
+    - i@341|i@air|i@341
+    - i@DarkSteel|i@air|i@DarkSteel
+    color: co@green
+slime_boots_equip_event:
+    type: world
+    debug: true
+    events:
+        on player equips slime_boots:
+        - cast jump duration:630720000 power:4 <player>
+
+slime_boots_unequip_event:
+    type: world
+    debug: true
+    events:
+        on player unequips slime_boots:
+        - cast jump remove <player>
+steel_helmet:
+    type: item
+    debug: false
+    material: i@leather_helmet
+    display name: <&l>Dark Steel Helmet
+    enchantments: 
+    - DURABILITY:1
+    - MENDING:1
+    recipe:
+    - i@DarkSteel|i@DarkSteel|i@DarkSteel
+    - i@DarkSteel|i@air|i@DarkSteel
+    - i@air|i@air|i@air
+    color: co@black
+steel_chestplate:
+    type: item
+    debug: false
+    material: i@leather_chestplate
+    display name: <&l>Dark Steel Chestplate
+    enchantments: 
+    - DURABILITY:2
+    - MENDING:1
+    recipe:
+    - i@DarkSteel|i@air|i@DarkSteel
+    - i@DarkSteel|i@DarkSteel|i@DarkSteel
+    - i@DarkSteel|i@DarkSteel|i@DarkSteel
+    color: co@black
+steel_leggings:
+    type: item
+    debug: false
+    material: i@leather_leggings
+    display name: <&l>Dark Steel Leggings
+    enchantments: 
+    - DURABILITY:2
+    - MENDING:1
+    recipe:
+    - i@DarkSteel|i@DarkSteel|i@DarkSteel
+    - i@DarkSteel|i@air|i@DarkSteel
+    - i@DarkSteel|i@air|i@DarkSteel
+    color: co@black
+steel_boots:
+    type: item
+    debug: false
+    material: i@leather_boots
+    display name: <&l>Dark Steel Boots
+    enchantments: 
+    - DURABILITY:1
+    - MENDING:1
+    recipe:
+    - i@air|i@air|i@air
+    - i@DarkSteel|i@air|i@DarkSteel
+    - i@DarkSteel|i@air|i@DarkSteel
+    color: co@black
+

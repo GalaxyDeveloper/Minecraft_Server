@@ -1,0 +1,7 @@
+DarkSteel:
+  type: item  
+  material: i@405
+  display name: <&l>Dark Steel Ingot
+  furnace_recipe: i@iron_ingot
+
+

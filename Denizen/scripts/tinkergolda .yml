@@ -1,0 +1,85 @@
+#######################
+#---Wooden Rod Axes---#
+#######################
+GAxePaper: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  enchantments: 
+  - DIG_SPEED:1
+  recipe: 
+  - i@gold_ingot|i@gold_ingot|i@air
+  - i@gold_ingot|i@paper|i@air 
+  - i@air|i@stick|i@air
+
+GAxeSlimeball: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  enchantments:
+  - DURABILITY:1
+  recipe: 
+  - i@gold_ingot|i@gold_ingot|i@air
+  - i@gold_ingot|i@341|i@air 
+  - i@air|i@stick|i@air
+
+GAxeCream: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  enchantments: 
+  - MENDING:1
+  recipe: 
+  - i@gold_ingot|i@gold_ingot|i@air
+  - i@gold_ingot|i@magma_cream|i@air 
+  - i@air|i@stick|i@air
+
+#####################
+#---Bone Rod Axes---#
+#####################
+GAxePaperB: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  recipe: 
+  - i@gold_ingot|i@gold_ingot|i@air
+  - i@gold_ingot|i@paper|i@air 
+  - i@air|i@bone|i@air
+
+GAxeSlimeballB: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  enchantments:
+  - DURABILITY:2
+  recipe: 
+  - i@gold_ingot|i@gold_ingot|i@air
+  - i@gold_ingot|i@341|i@air 
+  - i@air|i@bone|i@air
+
+GAxeCreamB: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  recipe: 
+  - i@gold_ingot|i@gold_ingot|i@air
+  - i@gold_ingot|i@magma_cream|i@air 
+  - i@air|i@bone|i@air

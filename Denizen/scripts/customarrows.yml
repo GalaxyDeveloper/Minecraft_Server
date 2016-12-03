@@ -1,0 +1,257 @@
+explosive_arrow:
+    type: item
+    debug: false
+    material: arrow
+    display name: <&7>Explosive Arrow
+    recipe:
+    - i@air|i@flint|i@air
+    - i@air|i@stick|i@firework
+    - i@string|i@289|i@paper
+
+flaming_arrow:
+    type: item
+    debug: false
+    material: arrow
+    display name: <&4>Flaming Arrow
+    recipe:
+    - i@air|i@quartz|i@air
+    - i@air|i@blaze_rod|i@air
+    - i@air|i@blaze_powder|i@air
+
+shotblast_arrow:
+    type: item
+    debug: false
+    material: arrow
+    display name: Bundle Of Arrow
+    lore:
+    - <&c>Launches 3 arrows
+    - <&c>all at once!
+    recipe:
+    - i@arrow|i@arrow|i@arrow
+    - i@string|i@string|i@string
+    - i@air|i@air|i@air
+
+fast_arrow:
+    type: item
+    debug: false
+    material: arrow
+    display name: Faster Arrow
+    lore:
+    - <&c>This arrow moves
+    - <&c>extra fast!
+    recipe:
+    - i@arrow|i@arrow|i@redstone
+    - i@air|i@air|i@air
+    - i@air|i@air|i@air
+
+weak_arrow:
+    type: item
+    debug: false
+    material: arrow
+    display name: Weakened Arrow
+    lore:
+    - <&c>This arrow is
+    - <&c>damaged.
+
+bpg_bow:
+    type: item
+    debug: false
+    material: bow
+    display name: BPG Launcher
+    lore:
+    - <&c>Bow Propelled Grenade
+    - <&c>Launcher.
+    - <&c>(Requires BPG Arrows)
+    recipe:
+    - i@bow|i@tnt|i@tnt
+    - i@diamond_block|i@tnt|i@tnt
+    - i@iron_block|i@iron_block|i@iron_block
+
+weak_bpg_arrow:
+    type: item
+    debug: false
+    material: arrow
+    display name: Weak BPG Arrow
+    lore:
+    - <&c>This arrow explodes
+    - <&c>weakly on impact.
+    - <&c>(Requires BPG Launcher)
+    recipe:
+    - i@arrow|i@tnt|i@air
+    - i@air|i@air|i@air
+    - i@air|i@air|i@air
+
+strong_bpg_arrow:
+    type: item
+    debug: false
+    material: arrow
+    display name: Strong BPG Arrow
+    lore:
+    - <&c>This arrow explodes
+    - <&c>strongly on impact.
+    - <&c>(Requires BPG Launcher)
+    recipe:
+    - i@arrow|i@tnt|i@tnt
+    - i@air|i@air|i@air
+    - i@air|i@air|i@air
+
+superior_bpg_arrow:
+    type: item
+    debug: false
+    material: arrow
+    display name: Superior BPG Arrow
+    lore:
+    - <&c>This arrow explodes for
+    - <&c>massive damage on impact.
+    - <&c>(Requires BPG Launcher)
+
+mininuke_bpg_arrow:
+    type: item
+    debug: false
+    material: arrow
+    display name: Mininuke BPG Arrow
+    lore:
+    - <&c>This arrow explodes
+    - <&c>with nuclear force on impact.
+    - <&c>(Requires BPG Launcher)
+    recipe:
+    - i@tnt|i@arrow|i@tnt
+    - i@tnt|i@tnt|i@tnt
+    - i@air|i@air|i@air
+
+firework_arrow_determine_type:
+    type: task
+    debug: false
+    script:
+    - if <entry[myitem].result.scriptname||null> == explosive_arrow {
+      - flag player arrowtype:firework
+      }
+      else if <entry[myitem].result.scriptname||null> == flaming_arrow {
+      - flag player arrowtype:weak_bpg
+      }
+      else if <entry[myitem].result.scriptname||null> == quartz_arrow {
+      - flag player arrowtype:strong_bpg
+      }
+      else if <entry[myitem].result.scriptname||null> == superior_bpg_arrow {
+      - flag player arrowtype:superior_bpg
+      }
+      else if <entry[myitem].result.scriptname||null> == mininuke_bpg_arrow {
+      - flag player arrowtype:mininuke_bpg
+      }
+    - flag player arrows:|:<context.projectile.eid> duration:10s
+    - flag player arrows:|:<context.projectile.eid> duration:10s
+
+firework_arrow_world:
+    type: world
+    debug: false
+    events:
+        on player shoots bow:
+        - flag player arrowtype:!
+        - define item <player.inventory.slot[<player.inventory.find.material[arrow]>]>
+        - adjust %item% quantity:1 save:myitem
+        - inject firework_arrow_determine_type
+
+        - if <entry[myitem].result.scriptname||null> == sharp_arrow {
+          - flag player arrowtype:sharp
+          - flag player arrows:|:<context.projectile.eid> duration:10s
+          }
+          else if <entry[myitem].result.scriptname||null> == weak_arrow {
+          - flag player arrowtype:damaged
+          - flag player arrows:|:<context.projectile.eid> duration:10s
+          }
+          else if <entry[myitem].result.scriptname||null> == fast_arrow {
+          - shoot arrow[critical=true] o:<player> speed:<context.force.mul[1.5]>
+          - take <entry[myitem].result> qty:1
+          - playsound sound:shoot_arrow <player.location>
+          - determine cancelled
+          }
+          else if <entry[myitem].result.scriptname||null> == shotblast_arrow {
+          - shoot arrow|arrow|arrow o:<player> speed:<context.force> spread:20
+          - take <entry[myitem].result> qty:1
+          - playsound sound:shoot_arrow <player.location>
+          - determine cancelled
+          }
+        on projectile hits block:
+        - if <context.shooter||null> == null queue clear
+        - if <context.shooter.is_player> {
+        
+          - if !<context.shooter.as_player.flag[arrows].contains[<context.projectile.eid>]||false> queue clear
+          - run firework_arrow_handler_internal def:<context.projectile.location>|<context.projectile> player:<context.shooter>
+          }
+        on arrow damages entity:
+        - if <context.damager.is_player> {
+          - if !<context.damager.as_player.flag[arrows].contains[<context.projectile.eid>]||false> queue clear
+          - if <context.damager.as_player.flag[arrowtype]> == sharp determine <context.damage.mul[2]>
+          - if <context.damager.as_player.flag[arrowtype]> == damaged determine <context.damage.div[1.5]>
+          - run firework_arrow_handler_internal def:<context.entity.location>|null player:<context.damager>
+          }
+
+firework_arrow_handler_internal:
+    type: task
+    debug: false
+    speed: 2t
+    script:
+    - ^if <player.flag[arrowtype]> == firework {
+      - ^playeffect effect:smoke %1% offset:1 qty:50 visibility:100
+      - explode %1% power:1 breakblocks
+      - if %2% != null remove %2%
+      - firework %1% random trail 
+      - if %2% != null remove %2%
+      }
+      else if <player.flag[arrowtype]> == weak_bpg {
+      - explode %1% power:2 fire
+      - if %2% != null remove %2%
+      }
+      else if <player.flag[arrowtype]> == strong_bpg {
+      - if <def[1].world.name.ends_with[nether]> explode %1% power:1 fire breakblocks
+      - explode %1% power:2
+      - if %2% != null remove %2%
+      }
+      else if <player.flag[arrowtype]> == superior_bpg {
+      - define t1 <li@ball|creeper.random>,<util.random.int[1].to[255]>,<util.random.int[1].to[255]>,<util.random.int[1].to[255]>
+      - explode %1% power:2 fire breakblocks
+      - spawn %1% firework[firework_item=i@firework[firework=true,false,%t1%,<util.random.int[1].to[255]>,<util.random.int[1].to[255]>,<util.random.int[1].to[255]>|0];velocity=0,0,0,<def[1].world.name>]
+      - spawn %1% firework[firework_item=i@firework[firework=true,false,%t1%,<util.random.int[1].to[255]>,<util.random.int[1].to[255]>,<util.random.int[1].to[255]>|0];velocity=0,0,0,<def[1].world.name>] save:myfirework
+      - if %2% != null remove %2%
+      - wait 5t
+      - adjust <entry[myfirework].spawned_entities> detonate
+      }
+      else if <player.flag[arrowtype]> == mininuke_bpg {
+      - if <def[1].world.name.ends_with[nether]> explode %1% power:3 fire breakblocks
+      - explode %1% power:5
+      - run mininuke_bpg_shroomcloud def:%1%
+      - if %2% != null remove %2%
+      }
+
+mininuke_bpg_shroomcloud:
+    type: task
+    speed: 1t
+    definitions: center
+    script: 
+    - ^playeffect %center% effect:huge_explosion visibility:100
+    # draw the tall cloud
+    - ^repeat 6 {
+      - define center <def[center].add[0,2,0]>
+      - ^playeffect effect:flame %center% offset:1 qty:50 visibility:100
+      - ^playeffect effect:explode %center% offset:1 qty:15 visibility:100
+      - ^playeffect effect:large_explode %center% visibility:100
+      - playsound %center% enderdragon_growl pitch:0
+      - wait 1t
+      }
+    # straight lines  x+    z+    y+    x-     y-     z-
+    - ^define vecs li@1,0,0|0,0,1|0,1,0|-1,0,0|0,0,-1|0,-1,0
+    # Angles   y=0        x- z-       x+ z+     x+ z-      x- z+
+    - ^define vecs %vecs%|-0.7,0,-0.7|0.7,0,0.7|0.7,0,-0.7|-0.7,0,0.7
+    # Raised lines: y+    x+        z+        x-         z-
+    - ^define vecs %vecs%|0.7,0.7,0|0,0.7,0.7|-0.7,0.7,0|0,0.7,-0.7
+    # draw the top shroom
+    - ^repeat 8 {
+      - ^define offset %value%
+      - ^foreach %vecs% {
+        - ^playeffect effect:explode <def[center].add[%value%].add[<util.random.int[-%offset%].to[%offset%]>,0,<util.random.int[-%offset%].to[%offset%]>]> offset:<def[offset].div[5]> qty:<def[offset].mul[10].as_int> visibility:100
+        - ^playeffect effect:large_explode <def[center].add[%value%].add[<util.random.int[-%offset%].to[%offset%]>,0,<util.random.int[-%offset%].to[%offset%]>]> offset:<def[offset].div[5]> qty:%offset% visibility:100
+        }
+      - ^wait 3t
+      }
+
+

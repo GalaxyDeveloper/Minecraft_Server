@@ -1,0 +1,31 @@
+MonsterJerky: 
+  type: item  
+  material: i@cooked_mutton
+  display name: <&l>Monster Jerky
+  lore: 
+  - <&4>Made with rotten materials
+  shapeless_recipe: i@rotten_flesh|i@spider_eye|i@sugar
+
+AppleJuice: 
+  type: item  
+  material: i@beetroot_soup
+  display name: <&l>Apple Juice
+  shapeless_recipe: i@apple|i@sugar|i@bowl
+
+SugarCookie: 
+  type: item  
+  material: i@cookie
+  display name: <&l>Sugar Cookie
+  lore:
+  - <&e>Delicious Cookie!!!
+  recipe:
+  - i@air|i@air|i@air
+  - i@wheat|i@sugar|i@wheat
+  - i@air|i@air|i@air
+
+sugar_rush_event:
+    type: world
+    debug: true
+    events:
+        on player consumes SugarCookie:
+        - cast speed duration:60 power:1 <player>

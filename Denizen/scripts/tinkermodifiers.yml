@@ -1,0 +1,1727 @@
+##########################
+#---Iron Pickaxes Fast---#
+##########################
+IPickaxePaperA: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IPickaxePaper|i@air 
+  - i@air|i@air|i@air
+
+IPickaxeSlimeballA: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IPickaxeSlimeball|i@air 
+  - i@air|i@air|i@air
+
+IPickaxeCreamA: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IPickaxeCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+IPickaxePaperBA: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  - DURABILITY:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IPickaxePaperB|i@air 
+  - i@air|i@air|i@air
+
+IPickaxeSlimeballBA: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:2
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IPickaxeSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+IPickaxeCreamBA: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IPickaxeCreamB|i@air 
+  - i@air|i@air|i@air
+
+#############################
+#---Diamond Pickaxes Fast---#
+#############################
+DPickaxePaperA: 
+  type: item  
+  material: i@diamond_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DPickaxePaper|i@air 
+  - i@air|i@air|i@air
+
+DPickaxeSlimeballA: 
+  type: item  
+  material: i@diamond_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DPickaxeSlimeball|i@air 
+  - i@air|i@air|i@air
+
+DPickaxeCreamA: 
+  type: item  
+  material: i@diamond_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DPickaxeCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+DPickaxePaperBA: 
+  type: item  
+  material: i@diamond_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  - DURABILITY:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DPickaxePaperB|i@air 
+  - i@air|i@air|i@air
+
+DPickaxeSlimeballBA: 
+  type: item  
+  material: i@diamond_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:2
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DPickaxeSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+DPickaxeCreamBA: 
+  type: item  
+  material: i@diamond_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DPickaxeCreamB|i@air 
+  - i@air|i@air|i@air
+
+##########################
+#---Gold Pickaxes Fast---#
+##########################
+GPickaxePaperA: 
+  type: item  
+  material: i@gold_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GPickaxePaper|i@air 
+  - i@air|i@air|i@air
+
+GPickaxeSlimeballA: 
+  type: item  
+  material: i@gold_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GPickaxeSlimeball|i@air 
+  - i@air|i@air|i@air
+
+GPickaxeCreamA: 
+  type: item  
+  material: i@gold_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GPickaxeCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+GPickaxePaperBA: 
+  type: item  
+  material: i@gold_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  - DURABILITY:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GPickaxePaperB|i@air 
+  - i@air|i@air|i@air
+
+GPickaxeSlimeballBA: 
+  type: item  
+  material: i@gold_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:2
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GPickaxeSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+GPickaxeCreamBA: 
+  type: item  
+  material: i@gold_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GPickaxeCreamB|i@air 
+  - i@air|i@air|i@air
+
+##########################
+#---Iron Pickaxes luck---#
+##########################
+IPickaxePaperBB: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IPickaxePaper|i@air 
+  - i@air|i@air|i@air
+
+IPickaxeSlimeballBB: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IPickaxeSlimeball|i@air 
+  - i@air|i@air|i@air
+
+IPickaxeCreamBB: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IPickaxeCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+IPickaxePaperBBB: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IPickaxePaperB|i@air 
+  - i@air|i@air|i@air
+
+IPickaxeSlimeballBBB: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:2
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IPickaxeSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+IPickaxeCreamBBB: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IPickaxeCreamB|i@air 
+  - i@air|i@air|i@air
+
+#############################
+#---Diamond Pickaxes Luck---#
+#############################
+DPickaxePaperBB: 
+  type: item  
+  material: i@diamond_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DPickaxePaper|i@air 
+  - i@air|i@air|i@air
+
+DPickaxeSlimeballBB: 
+  type: item  
+  material: i@diamond_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DPickaxeSlimeball|i@air 
+  - i@air|i@air|i@air
+
+DPickaxeCreamBB: 
+  type: item  
+  material: i@diamond_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DPickaxeCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+DPickaxePaperBBB: 
+  type: item  
+  material: i@diamond_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DPickaxePaperB|i@air 
+  - i@air|i@air|i@air
+
+DPickaxeSlimeballBBB: 
+  type: item  
+  material: i@diamond_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:2
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DPickaxeSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+DPickaxeCreamBBB: 
+  type: item  
+  material: i@diamond_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DPickaxeCreamB|i@air 
+  - i@air|i@air|i@air
+
+##########################
+#---Gold Pickaxes Luck---#
+##########################
+GPickaxePaperBB: 
+  type: item  
+  material: i@gold_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GPickaxePaper|i@air 
+  - i@air|i@air|i@air
+
+GPickaxeSlimeballBB: 
+  type: item  
+  material: i@gold_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GPickaxeSlimeball|i@air 
+  - i@air|i@air|i@air
+
+GPickaxeCreamBB: 
+  type: item  
+  material: i@gold_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GPickaxeCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+GPickaxePaperBBB: 
+  type: item  
+  material: i@gold_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GPickaxePaperB|i@air 
+  - i@air|i@air|i@air
+
+GPickaxeSlimeballBBB: 
+  type: item  
+  material: i@gold_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:2
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GPickaxeSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+GPickaxeCreamBBB: 
+  type: item  
+  material: i@gold_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GPickaxeCreamB|i@air 
+  - i@air|i@air|i@air
+
+######################
+#---Iron Axes Fast---#
+######################
+IAxePaperA: 
+  type: item  
+  material: i@iron_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IAxePaper|i@air 
+  - i@air|i@air|i@air
+
+IAxeSlimeballA: 
+  type: item  
+  material: i@iron_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IAxeSlimeball|i@air 
+  - i@air|i@air|i@air
+
+IAxeCreamA: 
+  type: item  
+  material: i@iron_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IAxeCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+IAxePaperBA: 
+  type: item  
+  material: i@iron_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  - DURABILITY:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IAxePaperB|i@air 
+  - i@air|i@air|i@air
+
+IAxeSlimeballBA: 
+  type: item  
+  material: i@iron_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:2
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IAxeSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+IAxeCreamBA: 
+  type: item  
+  material: i@iron_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IAxeCreamB|i@air 
+  - i@air|i@air|i@air
+
+#########################
+#---Diamond Axes Fast---#
+#########################
+DAxePaperA: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DAxePaper|i@air 
+  - i@air|i@air|i@air
+
+DAxeSlimeballA: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DAxeSlimeball|i@air 
+  - i@air|i@air|i@air
+
+DAxeCreamA: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DAxeCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+DAxePaperBA: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  - DURABILITY:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DAxePaperB|i@air 
+  - i@air|i@air|i@air
+
+DAxeSlimeballBA: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:2
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DAxeSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+DAxeCreamBA: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DAxeCreamB|i@air 
+  - i@air|i@air|i@air
+
+######################
+#---Gold Axes Fast---#
+######################
+GAxePaperA: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GAxePaper|i@air 
+  - i@air|i@air|i@air
+
+GAxeSlimeballA: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GAxeSlimeball|i@air 
+  - i@air|i@air|i@air
+
+GAxeCreamA: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GAxeCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+GAxePaperBA: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  - DURABILITY:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GAxePaperB|i@air 
+  - i@air|i@air|i@air
+
+GAxeSlimeballBA: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:2
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GAxeSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+GAxeCreamBA: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GAxeCreamB|i@air 
+  - i@air|i@air|i@air
+
+######################
+#---Iron Axes luck---#
+######################
+IAxePaperBB: 
+  type: item  
+  material: i@iron_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IAxePaper|i@air 
+  - i@air|i@air|i@air
+
+IAxeSlimeballBB: 
+  type: item  
+  material: i@iron_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IAxeSlimeball|i@air 
+  - i@air|i@air|i@air
+
+IAxeCreamBB: 
+  type: item  
+  material: i@iron_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IAxeCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+IAxePaperBBB: 
+  type: item  
+  material: i@iron_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IAxePaperB|i@air 
+  - i@air|i@air|i@air
+
+IAxeSlimeballBBB: 
+  type: item  
+  material: i@iron_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:2
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IAxeSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+IAxeCreamBBB: 
+  type: item  
+  material: i@iron_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IAxeCreamB|i@air 
+  - i@air|i@air|i@air
+
+#########################
+#---Diamond Axes Luck---#
+#########################
+DAxePaperBB: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DAxePaper|i@air 
+  - i@air|i@air|i@air
+
+DAxeSlimeballBB: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DAxeSlimeball|i@air 
+  - i@air|i@air|i@air
+
+DAxeCreamBB: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DAxeCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+DAxePaperBBB: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DAxePaperB|i@air 
+  - i@air|i@air|i@air
+
+DAxeSlimeballBBB: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:2
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DAxeSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+DAxeCreamBBB: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DAxeCreamB|i@air 
+  - i@air|i@air|i@air
+
+######################
+#---Gold Axes Luck---#
+######################
+GAxePaperBB: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GAxePaper|i@air 
+  - i@air|i@air|i@air
+
+GAxeSlimeballBB: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GAxeSlimeball|i@air 
+  - i@air|i@air|i@air
+
+GAxeCreamBB: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GAxeCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+GAxePaperBBB: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GAxePaperB|i@air 
+  - i@air|i@air|i@air
+
+GAxeSlimeballBBB: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:2
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GAxeSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+GAxeCreamBBB: 
+  type: item  
+  material: i@gold_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GAxeCreamB|i@air 
+  - i@air|i@air|i@air
+
+#########################
+#---Iron Shovels Fast---#
+#########################
+IShovelPaperA: 
+  type: item  
+  material: i@iron_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IShovelPaper|i@air 
+  - i@air|i@air|i@air
+
+IShovelSlimeballA: 
+  type: item  
+  material: i@iron_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IShovelSlimeball|i@air 
+  - i@air|i@air|i@air
+
+IShovelCreamA: 
+  type: item  
+  material: i@iron_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IShovelCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+IShovelPaperBA: 
+  type: item  
+  material: i@iron_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  - DURABILITY:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IShovelPaperB|i@air 
+  - i@air|i@air|i@air
+
+IShovelSlimeballBA: 
+  type: item  
+  material: i@iron_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:2
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IShovelSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+IShovelCreamBA: 
+  type: item  
+  material: i@iron_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@IShovelCreamB|i@air 
+  - i@air|i@air|i@air
+
+############################
+#---Diamond Shovels Fast---#
+############################
+DShovelPaperA: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DShovelPaper|i@air 
+  - i@air|i@air|i@air
+
+DShovelSlimeballA: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DShovelSlimeball|i@air 
+  - i@air|i@air|i@air
+
+DShovelCreamA: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DShovelCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+DShovelPaperBA: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  - DURABILITY:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DShovelPaperB|i@air 
+  - i@air|i@air|i@air
+
+DShovelSlimeballBA: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:2
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DShovelSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+DShovelCreamBA: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@DShovelCreamB|i@air 
+  - i@air|i@air|i@air
+
+#########################
+#---Gold Shovels Fast---#
+#########################
+GShovelPaperA: 
+  type: item  
+  material: i@gold_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GShovelPaper|i@air 
+  - i@air|i@air|i@air
+
+GShovelSlimeballA: 
+  type: item  
+  material: i@gold_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GShovelSlimeball|i@air 
+  - i@air|i@air|i@air
+
+GShovelCreamA: 
+  type: item  
+  material: i@gold_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GShovelCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+GShovelPaperBA: 
+  type: item  
+  material: i@gold_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - DIG_SPEED:2
+  - DURABILITY:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GShovelPaperB|i@air 
+  - i@air|i@air|i@air
+
+GShovelSlimeballBA: 
+  type: item  
+  material: i@gold_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments:
+  - DURABILITY:2
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GShovelSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+GShovelCreamBA: 
+  type: item  
+  material: i@gold_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Redstone Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - DIG_SPEED:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@redstone|i@GShovelCreamB|i@air 
+  - i@air|i@air|i@air
+
+#########################
+#---Iron Shovels luck---#
+#########################
+IShovelPaperBB: 
+  type: item  
+  material: i@iron_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IShovelPaper|i@air 
+  - i@air|i@air|i@air
+
+IShovelSlimeballBB: 
+  type: item  
+  material: i@iron_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IShovelSlimeball|i@air 
+  - i@air|i@air|i@air
+
+IShovelCreamBB: 
+  type: item  
+  material: i@iron_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IShovelCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+IShovelPaperBBB: 
+  type: item  
+  material: i@iron_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IShovelPaperB|i@air 
+  - i@air|i@air|i@air
+
+IShovelSlimeballBBB: 
+  type: item  
+  material: i@iron_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:2
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IShovelSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+IShovelCreamBBB: 
+  type: item  
+  material: i@iron_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@IShovelCreamB|i@air 
+  - i@air|i@air|i@air
+
+############################
+#---Diamond Shovels Luck---#
+############################
+DShovelPaperBB: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DShovelPaper|i@air 
+  - i@air|i@air|i@air
+
+DShovelSlimeballBB: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DShovelSlimeball|i@air 
+  - i@air|i@air|i@air
+
+DShovelCreamBB: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DShovelCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+DShovelPaperBBB: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DShovelPaperB|i@air 
+  - i@air|i@air|i@air
+
+DShovelSlimeballBBB: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:2
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DShovelSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+DShovelCreamBBB: 
+  type: item  
+  material: i@diamond_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@DShovelCreamB|i@air 
+  - i@air|i@air|i@air
+
+#########################
+#---Gold Shovels Luck---#
+#########################
+GShovelPaperBB: 
+  type: item  
+  material: i@gold_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GShovelPaper|i@air 
+  - i@air|i@air|i@air
+
+GShovelSlimeballBB: 
+  type: item  
+  material: i@gold_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GShovelSlimeball|i@air 
+  - i@air|i@air|i@air
+
+GShovelCreamBB: 
+  type: item  
+  material: i@gold_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GShovelCream|i@air 
+  - i@air|i@air|i@air
+
+####################################
+
+GShovelPaperBBB: 
+  type: item  
+  material: i@gold_spade
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GShovelPaperB|i@air 
+  - i@air|i@air|i@air
+
+GShovelSlimeballBBB: 
+  type: item  
+  material: i@gold_spade
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments:
+  - DURABILITY:2
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GShovelSlimeballB|i@air 
+  - i@air|i@air|i@air
+
+GShovelCreamBBB: 
+  type: item  
+  material: i@gold_spade
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  - <&7>Emerald Modifier
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  - LOOT_BONUS_BLOCKS:1
+  recipe: 
+  - i@air|i@air|i@air
+  - i@emerald|i@GShovelCreamB|i@air 
+  - i@air|i@air|i@air

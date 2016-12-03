@@ -1,0 +1,85 @@
+###########################
+#---Wooden Rod Pickaxes---#
+###########################
+IPickaxePaper: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  enchantments: 
+  - DIG_SPEED:1
+  recipe: 
+  - i@iron_ingot|i@iron_ingot|i@iron_ingot
+  - i@air|i@paper|i@air 
+  - i@air|i@stick|i@air
+
+IPickaxeSlimeball: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  enchantments:
+  - DURABILITY:1
+  recipe: 
+  - i@iron_ingot|i@iron_ingot|i@iron_ingot
+  - i@air|i@341|i@air 
+  - i@air|i@stick|i@air
+
+IPickaxeCream: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  enchantments: 
+  - MENDING:1
+  recipe: 
+  - i@iron_ingot|i@iron_ingot|i@iron_ingot
+  - i@air|i@magma_cream|i@air 
+  - i@air|i@stick|i@air
+
+#########################
+#---Bone Rod Pickaxes---#
+#########################
+IPickaxePaperB: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  recipe: 
+  - i@iron_ingot|i@iron_ingot|i@iron_ingot
+  - i@air|i@paper|i@air 
+  - i@air|i@bone|i@air
+
+IPickaxeSlimeballB: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  enchantments:
+  - DURABILITY:2
+  recipe: 
+  - i@iron_ingot|i@iron_ingot|i@iron_ingot
+  - i@air|i@341|i@air 
+  - i@air|i@bone|i@air
+
+IPickaxeCreamB: 
+  type: item  
+  material: i@iron_pickaxe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  recipe: 
+  - i@iron_ingot|i@iron_ingot|i@iron_ingot
+  - i@air|i@magma_cream|i@air 
+  - i@air|i@bone|i@air

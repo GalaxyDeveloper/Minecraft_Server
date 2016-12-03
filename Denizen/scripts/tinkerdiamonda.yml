@@ -1,0 +1,85 @@
+#######################
+#---Wooden Rod Axes---#
+#######################
+DAxePaper: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Wooden Rod
+  enchantments: 
+  - DIG_SPEED:1
+  recipe: 
+  - i@diamond|i@diamond|i@air
+  - i@diamond|i@paper|i@air 
+  - i@air|i@stick|i@air
+
+DAxeSlimeball: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Wooden Rod
+  enchantments:
+  - DURABILITY:1
+  recipe: 
+  - i@diamond|i@diamond|i@air
+  - i@diamond|i@341|i@air 
+  - i@air|i@stick|i@air
+
+DAxeCream: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Wooden Rod
+  enchantments: 
+  - MENDING:1
+  recipe: 
+  - i@diamond|i@diamond|i@air
+  - i@diamond|i@magma_cream|i@air 
+  - i@air|i@stick|i@air
+
+#####################
+#---Bone Rod Axes---#
+#####################
+DAxePaperB: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Paper Binding
+  - <&7>Bone Rod
+  enchantments: 
+  - DIG_SPEED:1
+  - DURABILITY:1
+  recipe: 
+  - i@diamond|i@diamond|i@air
+  - i@diamond|i@paper|i@air 
+  - i@air|i@bone|i@air
+
+DAxeSlimeballB: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Slimeball Binding
+  - <&7>Bone Rod
+  enchantments:
+  - DURABILITY:2
+  recipe: 
+  - i@diamond|i@diamond|i@air
+  - i@diamond|i@341|i@air 
+  - i@air|i@bone|i@air
+
+DAxeCreamB: 
+  type: item  
+  material: i@diamond_axe
+  lore: 
+  - <&7>Magma Cream Binding
+  - <&7>Bone Rod
+  enchantments: 
+  - MENDING:1
+  - DURABILITY:1
+  recipe: 
+  - i@diamond|i@diamond|i@air
+  - i@diamond|i@magma_cream|i@air 
+  - i@air|i@bone|i@air

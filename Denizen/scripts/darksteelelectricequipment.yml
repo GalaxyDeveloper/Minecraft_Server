@@ -1,0 +1,71 @@
+gun_events:
+  type: world
+  events:
+    on player right clicks with gun:
+    - if "<player.item_in_hand.lore.after[ammo<&co> ].before[/]>" <= 0 || <player.has_flag[reload_cooldown]> {
+      - playsound sound:click <player.location>
+      - queue clear
+      }
+    - playsound sound:explode <pl.location> pitch:1.5
+    - shoot e@arrow speed:5 spread:3 shooter:<player>
+    - repeat 6:
+      - playeffect effect:<li@fireworks_spark|flame|smoke.random> <player.location.add[0,0.5,0]> qty:0 data:1 offset:l@<pl.location.direction.vector.x.add[<util.random.decimal[-0.1].to[0.1]>].div[3]>,<pl.location.direction.vector.y.add[<util.random.decimal[-0.1].to[0.1]>].div[3]>,<pl.location.direction.vector.z.add[<util.random.decimal[-0.1].to[0.1]>].div[3]>
+    - run update_gun def:<pl.item_in_hand> instantly player:<player>
+    on player left clicks with gun:
+    - run reload_gun def:<pl.item_in_hand> instantly
+    - playsound <player> sound:BLOCK_PISTON_EXTEND 
+    on player places ammo:
+    - determine cancelled
+    on player places gun:
+    - determine cancelled
+gun:
+  type: item
+  material: i@356
+  display name: <&l>Redstone Gun
+  lore:
+  - <&4>Ammo<&co> 30/30
+  recipe:
+  - i@air|i@air|i@air
+  - i@air|i@air|i@air
+  - i@air|i@air|i@air
+
+ammo:
+  type: item
+  material: i@redstone
+  display name: <&l>Redstone Charge
+update_gun:
+  type: task
+  script:
+  - define ammo <def[1].lore.after[reammo<&co>].before[/]>
+  - define maxammo <def[1].lore.after[/]>
+  - define newammo <def[ammo].sub[1].as_int>
+  - if %newammo% < 0 queue clear
+  - adjust <player> "action_bar:<&b>Ammo<&co> %newammo%/%maxammo%"
+  - adjust <def[1]> "lore:Ammo<&co> %newammo%/%maxammo%" save:item
+  - inventory set d:<pl.inventory> slot:<player.inventory.find[%1%]> origin:<entry[item].result>
+reload_gun:
+  type: task
+  script:
+  - if <player.has_flag[reload_cooldown]> queue clear
+  - flag <player> reload_cooldown d:2s
+  - define ammo <def[1].lore.after[ammo<&co>].before[/]>
+  - define maxammo <def[1].lore.after[/]>
+  - define newammo <def[maxammo].sub[%ammo%].as_int>
+  - if %newammo% < 0 queue clear
+  - if <player.inventory.contains[ammo].not> {
+    - queue clear
+    - "adjust <player> action_bar:<&c>No ammo!"
+    }
+  - define newammo <player.inventory.quantity[i@ammo].min[%newammo%].as_int>
+  - take i@ammo quantity:%newammo%
+  - playsound sound:fire_ignite <pl.location> pitch:0.5
+  - wait 10t
+  - playsound sound:fire_ignite <pl.location> pitch:0.5
+  - wait 10t
+  - playsound sound:fire_ignite <pl.location> pitch:0.5
+  - wait 10t
+  - playsound sound:fire_ignite <pl.location> pitch:0.5
+  - define newammo <def[ammo].add[%newammo%].min[%maxammo%].as_int>
+  - adjust <player> "action_bar:<&b>Ammo<&co> %newammo%/%maxammo%"
+  - adjust <def[1]> "lore:Ammo<&co> %newammo%/%maxammo%" save:item
+  - inventory set d:<pl.inventory> slot:<player.inventory.find[%1%]> origin:<entry[item].result> 
