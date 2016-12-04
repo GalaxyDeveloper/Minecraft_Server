@@ -1,0 +1,120 @@
+Epicite:
+   type: item
+   material: i@410
+   display name: Epicite
+   recipe:
+   - i@cobblestone|i@iron_ingot|i@gold_ingot
+   - i@diamond|i@emerald|i@emerald
+   - i@air|i@air|i@air
+  
+EpiciteSword:
+   type: item
+   material: i@276
+   display name: Epicite Sword
+   enchantments:
+   - DURABILITY:15
+   - DAMAGE_ALL:10
+   recipe:
+   - i@air|i@Epicite|i@air
+   - i@air|i@Epicite|i@air
+   - i@air|i@stick|i@air
+   
+EpiciteShovel:
+   type: item
+   material: i@277
+   display name: Epicite Shovel
+   enchantments:
+   - DURABILITY:15
+   recipe:
+   - i@air|i@Epicite|i@air
+   - i@air|i@stick|i@air
+   - i@air|i@stick|i@air
+   
+EpicitePickaxe:
+   type: item
+   material: i@278
+   display name: Epicite Pickaxe
+   enchantments:
+   - DURABILITY:15
+   - LOOT_BONUS_BLOCKS:10
+   recipe:
+   - i@Epicite|i@Epicite|i@Epicite
+   - i@air|i@stick|i@air
+   - i@air|i@stick|i@air
+   
+EpiciteAxe:
+   type: item
+   material: i@279
+   display name: Epicite Axe
+   enchantments:
+   - DURABILITY:15
+   - DAMAGE_ALL:10
+   recipe:
+   - i@Epicite|i@Epicite|i@air
+   - i@Epicite|i@stick|i@air
+   - i@air|i@stick|i@air
+   
+EpiciteHoe:
+   type: item
+   material: i@293
+   display name: Epicite Hoe
+   lore:
+   - <&4>Seriously?
+   enchantments:
+   - DURABILITY:15
+   recipe:
+   - i@Epicite|i@Epicite|i@air
+   - i@air|i@stick|i@air
+   - i@air|i@stick|i@air
+
+EpiciteHelmet:
+   type: item
+   material: i@310
+   display name: Epicite Helmet
+   enchantments:
+   - DURABILITY:15
+   - PROTECTION_FIRE:15
+   - PROTECTION_ENVIRONMENTAL:15
+   recipe:
+   - i@Epicite|i@Epicite|i@Epicite
+   - i@Epicite|i@air|i@Epicite
+   - i@air|i@air|i@air
+   
+EpiciteChestplate:
+   type: item
+   material: i@311
+   display name: Epicite Chestplate
+   enchantments:
+   - DURABILITY:15
+   - PROTECTION_FIRE:15
+   - PROTECTION_ENVIRONMENTAL:15
+   recipe:
+   - i@Epicite|i@air|i@Epicite
+   - i@Epicite|i@Epicite|i@Epicite
+   - i@Epicite|i@Epicite|i@Epicite
+   
+EpiciteLeggings:
+   type: item
+   material: i@312
+   display name: Epicite Leggings
+   enchantments:
+   - DURABILITY:15
+   - PROTECTION_FIRE:15
+   - PROTECTION_ENVIRONMENTAL:15
+   recipe:
+   - i@Epicite|i@Epicite|i@Epicite
+   - i@Epicite|i@air|i@Epicite
+   - i@Epicite|i@air|i@Epicite
+   
+EpiciteBoots:
+   type: item
+   material: i@313
+   display name: Epicite Boots
+   enchantments:
+   - DURABILITY:15
+   - PROTECTION_FIRE:15
+   - PROTECTION_ENVIRONMENTAL:15
+   recipe:
+   - i@air|i@air|i@air
+   - i@Epicite|i@air|i@Epicite
+   - i@Epicite|i@air|i@Epicite

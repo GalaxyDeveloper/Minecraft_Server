@@ -1,0 +1,108 @@
+BronzeIngot:
+   type: item
+   material: i@336
+   display name: Bronze Ingot
+   furnace_recipe: i@13
+   
+BronzeSword:
+   type: item
+   material: i@268
+   display name: Bronze Sword
+   enchantments:
+   - DURABILITY:2
+   recipe:
+   - i@air|i@BronzeIngot|i@air
+   - i@air|i@BronzeIngot|i@air
+   - i@air|i@stick|i@air
+  
+BronzeShovel:
+   type: item
+   material: i@269
+   display name: Bronze Shovel
+   enchantments:
+   - DURABILITY:2
+   recipe:
+   - i@air|i@BronzeIngot|i@air
+   - i@air|i@stick|i@air
+   - i@air|i@stick|i@air
+ 
+BronzePikaxe:
+   type: item
+   material: i@270
+   display name: Bronze Pikaxe
+   enchantments:
+   - DURABILITY:2
+   recipe:
+   - i@BronzeIngot|i@BronzeIngot|i@BronzeIngot
+   - i@air|i@stick|i@air
+   - i@air|i@stick|i@air
+   
+BronzeAxe:
+   type: item
+   material: i@271
+   display name: Bronze Axe
+   enchantments:
+   - DURABILITY:2
+   recipe:
+   - i@BronzeIngot|i@BronzeIngot|i@air
+   - i@BronzeIngot|i@stick|i@air
+   - i@air|i@stick|i@air
+
+BronzeHoe:
+   type: item
+   material: i@290
+   display name: Bronze Hoe
+   enchantments:
+   - DURABILITY:2
+   recipe:
+   - i@BronzeIngot|i@BronzeIngot|i@air
+   - i@air|i@stick|i@air
+   - i@air|i@stick|i@air
+
+BronzeHelmet:
+   type: item
+   material: i@298
+   display name: Bronze Helmet
+   enchantments:
+   - DURABILITY:2
+   - PROTECTION_FIRE:2
+   recipe:
+   - i@BronzeIngot|i@BronzeIngot|i@BronzeIngot
+   - i@BronzeIngot|i@air|i@BronzeIngot
+   - i@air|i@air|i@air
+   
+BronzeChestplate:
+   type: item
+   material: i@299
+   display name: Bronze Chestplate
+   enchantments:
+   - DURABILITY:2
+   - PROTECTION_FIRE:2
+   recipe:
+   - i@BronzeIngot|i@air|i@BronzeIngot
+   - i@BronzeIngot|i@BronzeIngot|i@BronzeIngot
+   - i@BronzeIngot|i@BronzeIngot|i@BronzeIngot
+   
+BronzeLeggings:
+   type: item
+   material: i@300
+   display name: Bronze Leggings
+   enchantments:
+   - DURABILITY:2
+   - PROTECTION_FIRE:2
+   recipe:
+   - i@BronzeIngot|i@BronzeIngot|i@BronzeIngot
+   - i@BronzeIngot|i@air|i@BronzeIngot
+   - i@BronzeIngot|i@air|i@BronzeIngot
+   
+BronzeBoots:
+   type: item
+   material: i@301
+   display name: Bronze Boots
+   enchantments:
+   - DURABILITY:2
+   - PROTECTION_FIRE:2
+   recipe:
+   - i@air|i@air|i@air
+   - i@BronzeIngot|i@air|i@BronzeIngot
+   - i@BronzeIngot|i@air|i@BronzeIngot
